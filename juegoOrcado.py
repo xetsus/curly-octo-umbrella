@@ -17,4 +17,19 @@ while vidas >0:
         else:
             print("-",end="")
             fallas+=1
-        
+    if fallas == 0:
+        print("Felicidades, Ganaste")
+        break
+
+    tuletra=input("Introduice una letra: ")
+    adivina+=tuletra
+
+    if tuletra not in palabra:
+        vidas-=1
+        print("Equivocacion ")
+        print("tu tienes ",vidas, "vidas")
+    if vidas == 0:
+        print("perdiste")
+        #break
+else:
+    print("Gracias por participar")
