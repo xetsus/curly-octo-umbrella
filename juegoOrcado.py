@@ -1,4 +1,5 @@
 import time
+
 nombre=input("Como te llamas?: ")
 palabra="Rufo"
 adivina=""
@@ -30,6 +31,5 @@ while vidas >0:
         print("tu tienes ",vidas, "vidas")
     if vidas == 0:
         print("perdiste")
-        #break
 else:
     print("Gracias por participar")

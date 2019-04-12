@@ -10,6 +10,7 @@ __pycache__/
 .Python
 bin/
 share/
+include/
 pyvenv.cfg
 build/
 develop-eggs/
